@@ -5,7 +5,7 @@
  *   * @list: List of arguments passed to this function
  *    * @func: pointer to the struct flags in which we turn the flags on
  *     * Return: The length of the number printed
- *      */
+ */
 int print_binary(va_list list, param_func *func)
 {
 	unsigned int binary_num;
@@ -26,7 +26,7 @@ int print_binary(va_list list, param_func *func)
  *   * @list: the number passed
  *    * @func: pointer to the struct flags in which we turn the flags on
  *     * Return: the length of number printed
- *      */
+ */
 
 int print_hexa(va_list list, param_func *func)
 {
@@ -55,7 +55,7 @@ int print_hexa(va_list list, param_func *func)
  *   * @list: the argument received
  *    * @func: pointer to the struct flags in which we turn the flags on
  *     * Return: the length of printed in console
- *      */
+ */
 int print_octal(va_list list, param_func *func)
 {
 	unsigned long num;
@@ -82,7 +82,7 @@ int print_octal(va_list list, param_func *func)
  *    * @list: va_list arguments from _printf
  *     * @func: pointer to the struct flags in which we turn the flags on
  *      * Return: the length of printed in console
- *       */
+ */
 int print_heX(va_list list, param_func *func)
 {
 	unsigned long hex_num;

@@ -5,7 +5,7 @@
  *   * @str: the format string
  *    * @func: the parameters struct
  *     * Return: if modifier was valid
- *      */
+ */
 int get_mods(char *str, param_func *func)
 {
 	int i = 0;
@@ -28,7 +28,7 @@ int get_mods(char *str, param_func *func)
  *    * @func: the parameters struct
  *     * @list: the argument pointer
  *      * Return: new pointer
- *       */
+ */
 char *get_width(char *str, param_func *func, va_list list)
 {
 	int i = 0;
@@ -53,7 +53,7 @@ char *get_width(char *str, param_func *func, va_list list)
  *    * @func: the parameters struct
  *     * @list: the argument pointer
  *      * Return: new pointer
- *       */
+ */
 char *get_precision(char *str, param_func *func, va_list list)
 {
 	int i = 0;
